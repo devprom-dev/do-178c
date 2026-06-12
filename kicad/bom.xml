@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>c:\Users\1\Documents\test6\agl-segment-controller\06_PCB\kicad\AGL-SC-100-RevA\AGL-SC-100-RevA.kicad_sch</source>
+    <date>2026-06-10T23:18:32</date>
+    <tool>Eeschema 10.0.3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>AGL-SC-100-RevA</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AGL-SC-100-RevA.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/45fc891e-0e64-4ca4-b786-6b0b0c7de476/">
+      <title_block>
+        <title>Power</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Relay_Channel/" tstamps="/5362066b-ae39-4999-9dfd-77ddafbe7ed0/">
+      <title_block>
+        <title>Relay_Channel</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay_channel.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/">
+      <title_block>
+        <title>MCU_Comm</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mcu_comm.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power/" tstamps="/45fc891e-0e64-4ca4-b786-6b0b0c7de476/"/>
+      <tstamps>2ec69b33-cb1d-4ab8-a546-b99c791228ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power/" tstamps="/45fc891e-0e64-4ca4-b786-6b0b0c7de476/"/>
+      <tstamps>765e02e4-5246-4733-bc18-e3a53957f102</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power/" tstamps="/45fc891e-0e64-4ca4-b786-6b0b0c7de476/"/>
+      <tstamps>e3594bf6-866b-4628-b3c7-b7deefde8b76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SMBJ28A</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Power/" tstamps="/45fc891e-0e64-4ca4-b786-6b0b0c7de476/"/>
+      <tstamps>7a861525-165b-4006-9975-73bff5aae192</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>2A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/Power/" tstamps="/45fc891e-0e64-4ca4-b786-6b0b0c7de476/"/>
+      <tstamps>50d3d45e-657e-49e8-bb17-7c827afe8069</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>24V_IN</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-pol</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-pol</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Power/" tstamps="/45fc891e-0e64-4ca4-b786-6b0b0c7de476/"/>
+      <tstamps>1bfce105-4503-470f-bd72-94ce44087bb5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>22uH</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN6045</footprint>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN6045</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/Power/" tstamps="/45fc891e-0e64-4ca4-b786-6b0b0c7de476/"/>
+      <tstamps>8e1f2965-afae-44f8-b853-e374071e26cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>TPS54331DR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS5431DDA" description="3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-23V Input Voltage, PowerSO-8"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="Step-Down DC-DC Switching Regulator"/>
+      <property name="ki_fp_filters" value="TI*SO*PowerPAD*ThermalVias*"/>
+      <sheetpath names="/Power/" tstamps="/45fc891e-0e64-4ca4-b786-6b0b0c7de476/"/>
+      <tstamps>221d8e48-3e20-4fbc-823c-19698b8161af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="9"/>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Relay_Channel"/>
+      <property name="Sheetfile" value="relay_channel.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Relay_Channel/" tstamps="/5362066b-ae39-4999-9dfd-77ddafbe7ed0/"/>
+      <tstamps>ba188ae7-1b9c-46ae-a071-8df71ac4ea7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>LAMP1</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-pol</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-pol</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Relay_Channel"/>
+      <property name="Sheetfile" value="relay_channel.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Relay_Channel/" tstamps="/5362066b-ae39-4999-9dfd-77ddafbe7ed0/"/>
+      <tstamps>d1f8d2cc-4ce2-4b6f-a58b-db008bd32e29</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="K1">
+      <value>G6K-2F-DC5</value>
+      <footprint>Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight</footprint>
+      <fields>
+        <field name="Footprint">Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <property name="Sheetname" value="Relay_Channel"/>
+      <property name="Sheetfile" value="relay_channel.kicad_sch"/>
+      <property name="ki_keywords" value="MOSFET Output Photorelay 1-Form-A"/>
+      <property name="ki_fp_filters" value="SO*4.4x4.3mm*P2.54mm*"/>
+      <sheetpath names="/Relay_Channel/" tstamps="/5362066b-ae39-4999-9dfd-77ddafbe7ed0/"/>
+      <tstamps>9a6f1711-3b2d-4d51-8e14-d8dcc9bab684</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>0.1R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Relay_Channel"/>
+      <property name="Sheetfile" value="relay_channel.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Relay_Channel/" tstamps="/5362066b-ae39-4999-9dfd-77ddafbe7ed0/"/>
+      <tstamps>43b1ac87-ea3a-48cb-82c7-a9ea43d08ee5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Relay_Channel"/>
+      <property name="Sheetfile" value="relay_channel.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Relay_Channel/" tstamps="/5362066b-ae39-4999-9dfd-77ddafbe7ed0/"/>
+      <tstamps>5909862e-911c-466f-a352-72102584e943</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>ULN2803A</value>
+      <footprint>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_Array" part="ULN2803A" description="Darlington Transistor Arrays, SOIC18/DIP18"/>
+      <property name="Sheetname" value="Relay_Channel"/>
+      <property name="Sheetfile" value="relay_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Darlington transistor array"/>
+      <property name="ki_fp_filters" value="DIP*W7.62mm* SOIC*7.5x11.6mm*P1.27mm*"/>
+      <sheetpath names="/Relay_Channel/" tstamps="/5362066b-ae39-4999-9dfd-77ddafbe7ed0/"/>
+      <tstamps>ca345011-c2e8-4d64-b5da-80c281c0bac5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>INA180A2</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Amplifier_Current" part="INA180A2" description="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5"/>
+      <property name="Sheetname" value="Relay_Channel"/>
+      <property name="Sheetfile" value="relay_channel.kicad_sch"/>
+      <property name="ki_keywords" value="current monitor shunt sensor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Relay_Channel/" tstamps="/5362066b-ae39-4999-9dfd-77ddafbe7ed0/"/>
+      <tstamps>e951288a-b755-4b60-9f6c-2d5231427b6a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="MCU_Comm"/>
+      <property name="Sheetfile" value="mcu_comm.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/"/>
+      <tstamps>2aa8bdbd-26c2-4dcc-b72e-eb9b2a1e7071</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="MCU_Comm"/>
+      <property name="Sheetfile" value="mcu_comm.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/"/>
+      <tstamps>109990e9-17a5-4696-8cd0-68cd9f299b64</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="MCU_Comm"/>
+      <property name="Sheetfile" value="mcu_comm.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/"/>
+      <tstamps>8762d339-3787-410c-8879-da10031718a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>RS485</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-pol</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-pol</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MCU_Comm"/>
+      <property name="Sheetfile" value="mcu_comm.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/"/>
+      <tstamps>d756da75-d1f4-46cf-8482-eccf97527164</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>SWD</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-pol</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-pol</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MCU_Comm"/>
+      <property name="Sheetfile" value="mcu_comm.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/"/>
+      <tstamps>b6ce0cf3-7165-4b08-b692-2ce45608827f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="MCU_Comm"/>
+      <property name="Sheetfile" value="mcu_comm.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/"/>
+      <tstamps>0c79a0ca-5970-4a31-ad01-1bd20c8def7e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U11">
+      <value>ADM2582EBRWZ</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Interface_UART" part="ADM2582E" description="Isolated RS485/RS422 Transceiver,Integrated Isolated DC-DC Converter, 16Mbps,SO-20"/>
+      <property name="Sheetname" value="MCU_Comm"/>
+      <property name="Sheetfile" value="mcu_comm.kicad_sch"/>
+      <property name="ki_keywords" value="RS485 Transceiver,RS422 Transceiver"/>
+      <property name="ki_fp_filters" value="SOIC*7.5x12.8mm*P1.27mm*"/>
+      <sheetpath names="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/"/>
+      <tstamps>11c6ac88-6a5d-451a-a7e5-5a74be78b108</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="11"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U12">
+      <value>STM32G071KBT6</value>
+      <footprint>Package_QFP:LQFP-32_7x7mm_P0.8mm</footprint>
+      <fields>
+        <field name="Footprint">Package_QFP:LQFP-32_7x7mm_P0.8mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU_ST_STM32G0" part="STM32G071KBTxN" description="STMicroelectronics Arm Cortex-M0+ MCU, 128KB flash, 36KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, LQFP32"/>
+      <property name="Sheetname" value="MCU_Comm"/>
+      <property name="Sheetfile" value="mcu_comm.kicad_sch"/>
+      <property name="ki_keywords" value="Arm Cortex-M0+ STM32G0 STM32G0x1"/>
+      <property name="ki_fp_filters" value="LQFP*7x7mm*P0.8mm*"/>
+      <sheetpath names="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/"/>
+      <tstamps>2c14881b-13ac-4fe7-9b9a-ad8a995d73c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="20"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="1"/>
+            <pin num="17"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="18"/>
+            <pin num="22"/>
+            <pin num="19"/>
+            <pin num="23"/>
+            <pin num="21"/>
+            <pin num="24"/>
+            <pin num="25"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Crystal:Crystal_HC49-4H_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value="MCU_Comm"/>
+      <property name="Sheetfile" value="mcu_comm.kicad_sch"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
+      <sheetpath names="/MCU_Comm/" tstamps="/03edd4ee-428a-4da1-97a7-8e6db92cdeae/"/>
+      <tstamps>c009fe4d-afd1-46eb-b878-cccd36528366</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Current" part="INA180A2">
+      <description>Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina180.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA180A2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina180.pdf</field>
+        <field name="Description">Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 50 V/V, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Two pin crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Bidirectional transient-voltage-suppression diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_UART" part="ADM2582E">
+      <description>Isolated RS485/RS422 Transceiver,Integrated Isolated DC-DC Converter, 16Mbps,SO-20</description>
+      <docs>www.analog.com/media/en/technical-documentation/data-sheets/ADM2582E_2587E.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x12.8mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADM2582E</field>
+        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="Datasheet">www.analog.com/media/en/technical-documentation/data-sheets/ADM2582E_2587E.pdf</field>
+        <field name="Description">Isolated RS485/RS422 Transceiver,Integrated Isolated DC-DC Converter, 16Mbps,SO-20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND1" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="GND1" type="power_in"/>
+        <pin num="4" name="RxD" type="output"/>
+        <pin num="5" name="~{RE}" type="input"/>
+        <pin num="6" name="DE" type="input"/>
+        <pin num="7" name="TxD" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND1" type="power_in"/>
+        <pin num="10" name="GND1" type="power_in"/>
+        <pin num="11" name="GND2" type="power_in"/>
+        <pin num="12" name="Visoout" type="power_out"/>
+        <pin num="13" name="Y" type="output"/>
+        <pin num="14" name="GND2" type="power_in"/>
+        <pin num="15" name="Z" type="output"/>
+        <pin num="16" name="GND2" type="power_in"/>
+        <pin num="17" name="B" type="input"/>
+        <pin num="18" name="A" type="input"/>
+        <pin num="19" name="Visoin" type="power_in"/>
+        <pin num="20" name="GND2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32G0" part="STM32G071KBTxN">
+      <description>STMicroelectronics Arm Cortex-M0+ MCU, 128KB flash, 36KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, LQFP32</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32g071kb.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32G071KBTxN</field>
+        <field name="Footprint">Package_QFP:LQFP-32_7x7mm_P0.8mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32g071kb.pdf</field>
+        <field name="Description">STMicroelectronics Arm Cortex-M0+ MCU, 128KB flash, 36KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, LQFP32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB9" type="bidirectional"/>
+        <pin num="2" name="PC14" type="bidirectional"/>
+        <pin num="3" name="PC15" type="bidirectional"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="PF2" type="bidirectional"/>
+        <pin num="7" name="PA0" type="bidirectional"/>
+        <pin num="8" name="PA1" type="bidirectional"/>
+        <pin num="9" name="PA2" type="bidirectional"/>
+        <pin num="10" name="PA3" type="bidirectional"/>
+        <pin num="11" name="PA4" type="bidirectional"/>
+        <pin num="12" name="PA5" type="bidirectional"/>
+        <pin num="13" name="PA6" type="bidirectional"/>
+        <pin num="14" name="PA7" type="bidirectional"/>
+        <pin num="15" name="PB0" type="bidirectional"/>
+        <pin num="16" name="PB1" type="bidirectional"/>
+        <pin num="17" name="PB15" type="bidirectional"/>
+        <pin num="18" name="PA8" type="bidirectional"/>
+        <pin num="19" name="PA9/UCPD1_DBCC1" type="bidirectional"/>
+        <pin num="20" name="PC6" type="bidirectional"/>
+        <pin num="21" name="PA10/UCPD1_DBCC2" type="bidirectional"/>
+        <pin num="22" name="PA9/PA11" type="bidirectional"/>
+        <pin num="23" name="PA10/PA12" type="bidirectional"/>
+        <pin num="24" name="PA13" type="bidirectional"/>
+        <pin num="25" name="PA14" type="bidirectional"/>
+        <pin num="26" name="PD0" type="bidirectional"/>
+        <pin num="27" name="PD1" type="bidirectional"/>
+        <pin num="28" name="PD2" type="bidirectional"/>
+        <pin num="29" name="PD3" type="bidirectional"/>
+        <pin num="30" name="PB6" type="bidirectional"/>
+        <pin num="31" name="PB7" type="bidirectional"/>
+        <pin num="32" name="PB8" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS5431DDA">
+      <description>3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-23V Input Voltage, PowerSO-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps5430.pdf</docs>
+      <footprints>
+        <fp>TI*SO*PowerPAD*ThermalVias*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS5431DDA</field>
+        <field name="Footprint">Package_SO:TI_SO-PowerPAD-8_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps5430.pdf</field>
+        <field name="Description">3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-23V Input Voltage, PowerSO-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="input"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="VSENSE" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VIN" type="power_in"/>
+        <pin num="8" name="PH" type="output"/>
+        <pin num="9" name="GNDPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="ASSR-1218">
+      <description>Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4</description>
+      <docs>https://docs.broadcom.com/docs/AV02-0173EN</docs>
+      <footprints>
+        <fp>SO*4.4x4.3mm*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ASSR-1218</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x4.3mm_P2.54mm</field>
+        <field name="Datasheet">https://docs.broadcom.com/docs/AV02-0173EN</field>
+        <field name="Description">Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_Array" part="ULN2803A">
+      <description>Darlington Transistor Arrays, SOIC18/DIP18</description>
+      <docs>http://www.ti.com/lit/ds/symlink/uln2803a.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ULN2803A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/uln2803a.pdf</field>
+        <field name="Description">Darlington Transistor Arrays, SOIC18/DIP18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I3" type="input"/>
+        <pin num="4" name="I4" type="input"/>
+        <pin num="5" name="I5" type="input"/>
+        <pin num="6" name="I6" type="input"/>
+        <pin num="7" name="I7" type="input"/>
+        <pin num="8" name="I8" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="COM" type="passive"/>
+        <pin num="11" name="O8" type="open_collector"/>
+        <pin num="12" name="O7" type="open_collector"/>
+        <pin num="13" name="O6" type="open_collector"/>
+        <pin num="14" name="O5" type="open_collector"/>
+        <pin num="15" name="O4" type="open_collector"/>
+        <pin num="16" name="O3" type="open_collector"/>
+        <pin num="17" name="O2" type="open_collector"/>
+        <pin num="18" name="O1" type="open_collector"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Current">
+      <uri>${KICAD10_SYMBOL_DIR}/Amplifier_Current.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>${KICAD10_SYMBOL_DIR}/Interface_UART.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32G0">
+      <uri>${KICAD10_SYMBOL_DIR}/MCU_ST_STM32G0.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>${KICAD10_SYMBOL_DIR}/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>${KICAD10_SYMBOL_DIR}/Relay_SolidState.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_Array">
+      <uri>${KICAD10_SYMBOL_DIR}/Transistor_Array.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets/>
+</export>
